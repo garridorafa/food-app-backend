@@ -1,3 +1,3 @@
-# Strapi application
+# Food App Backend
 
-A quick description of your strapi application
+Food App Backend.
