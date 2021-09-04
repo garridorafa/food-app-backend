@@ -35,6 +35,10 @@
     "dishes": {
       "via": "restaurant",
       "collection": "dish"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }
