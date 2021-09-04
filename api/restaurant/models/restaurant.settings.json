@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "restaurants",
   "info": {
-    "name": "restaurant"
+    "name": "restaurant",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,7 +18,7 @@
       "required": true
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "image": {
       "collection": "file",
@@ -30,6 +31,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "dishes": {
+      "via": "restaurant",
+      "collection": "dish"
     }
   }
 }
